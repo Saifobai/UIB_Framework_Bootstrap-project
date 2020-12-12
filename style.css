@@ -1,0 +1,15 @@
+
+
+
+.fab:hover {
+    cursor: pointer;
+    transform: scale(1.1);   
+    color: #0156B3 !important;
+}
+
+
+.bi:hover{
+    cursor: pointer;
+    transform: scale(1.1);    
+    color: #0156B3;
+}

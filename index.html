@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap-project3</title>
+</head>
+
+<body>
+
+
+
+
+    <div class="container-fluid">
+
+        <!--  Navbar      the first part ##################-->
+
+
+        <div class="row">
+            <div class="col-12 col-md-6 mx-md-auto">
+                <nav class="navbar navbar-expand-md navbar-light px-0">
+                    <a class="navbar-brand" href="#">
+                        <img class="mr-2" src="./images/bootstrap.jpg" width="40" height="40" alt="Bootstrap-logo">
+                        Bootstrap
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- #####################   Banner ##################### -->
+        <div class="row">
+            <div class="col-12 p-0 position-relative">
+                <img class="w-100" src="./images/banner.jpg" alt="banner" height="600px">
+                <div class="d-flex flex-column justify-content-center align-items-center position-absolute w-100 h-100"
+                    style="top:0;left:0;">
+                    <h1 class="font-weight-bold text-white text-center" style="width:58%;">Build a landing page for your
+                        business or project and generate more leads!</h1>
+                    <form class="form my-5">
+                        <input type="email" class="form-control my-2" placeholder="Enter your email..."
+                            style="width:300px;height:45px;">
+                        <button type="submit" class="w-100 btn btn-primary" style="height:45px;">Sign up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!--                     first 3 icons          -->
+
+
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center align-items-center bg-light">
+            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center p-4">
+                <div class="display-3 display-md-2 text-primary">
+                    <svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-display" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75z" />
+                        <path fill-rule="evenodd"
+                            d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z" />
+                    </svg>
+                </div>
+                <h3 class="py-3 font-weight-bold">Fully Responsive</h3>
+                <p class="h5 text-center font-weight-light px-5 px-md-0" style>This theme will look great on any device,
+                    no matter the size!</p>
+            </div>
+
+            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center p-4">
+                <div class="display-2 text-primary">
+                    <svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-layers" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3.188 8L.264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l-1.063.567L14.438 10 8 13.433 1.562 10 4.25 8.567 3.187 8z" />
+                        <path fill-rule="evenodd"
+                            d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4zM1.563 6L8 9.433 14.438 6 8 2.567 1.562 6z" />
+                    </svg>
+                </div>
+                <h3 class="py-3 font-weight-bold">Bootstrap 4 Ready</h3>
+                <p class="h5 text-center font-weight-light px-5 px-md-0" style>Featuring the latest build of the new
+                    Bootstrap 4 framework!</p>
+            </div>
+
+            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center p-4">
+                <div class="display-2 text-primary">
+                    <svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                        <path fill-rule="evenodd"
+                            d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z" />
+                    </svg>
+                </div>
+                <h3 class="py-3 font-weight-bold">Easy to Use</h3>
+                <p class="h5 text-center font-weight-light px-5 px-md-0" style>Ready to use with your own content, or
+                    customize the source files!</p>
+            </div>
+        </div>
+
+
+        <!-- images part-->
+
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col p-0 order-2 order-md-1">
+                <div class="d-flex flex-column justify-content-center p-5 h-100">
+                    <h2 class="pb-3">Fully Responsive Design</h2>
+                    <p class="h5 font-weight-light">When you use a theme created by Start Bootstrap, you know that the
+                        theme will look great on any device, whether it's a phone, tablet, or desktop the page will
+                        behave responsively!</p>
+                </div>
+            </div>
+            <div class="col p-0 order-1 order-md-2">
+                <img src="./images/phone.jpg" alt="phone" width="100%">
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col p-0 border">
+                <img src="./images/web.jpg" alt="phone" width="100%">
+            </div>
+            <div class="col p-0">
+                <div class="d-flex flex-column justify-content-center p-5 h-100">
+                    <h2 class="pb-3">Updated For Bootstrap 4</h2>
+                    <p class="h5 font-weight-light">Newly improved, and full of great utility classes, Bootstrap 4 is
+                        leading the way in mobile responsive web development! All of the themes on Start Bootstrap are
+                        now using Bootstrap 4!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col p-0 order-2 order-md-1">
+                <div class="d-flex flex-column justify-content-center p-5 h-100">
+                    <h2 class="pb-3">Easy to Use & Customize</h2>
+                    <p class="h5 font-weight-light">Landing Page is just HTML and CSS with a splash of SCSS for users
+                        who demand some deeper customization options. Out of the box, just add your content and images,
+                        and your new landing page will be ready to go!</p>
+                </div>
+            </div>
+            <div class="col p-0 order-1 order-md-2">
+                <img src="./images/kid.jpg" alt="phone" width="100%">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ####################             the people saying part-->
+
+    <div class="bg-light pt-5">
+        <h2 class="text-center font-weight-bold w-100 pt-5">What people are saying...</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+            <div class="col-12 col-md-3 d-flex flex-column align-items-center p-5">
+                <img class="rounded-circle" src="./images/tes1.jpg" alt="testimonial-1" width="200">
+                <h4 class="py-2 font-weight-bold">Margaret E.</h4>
+                <p class="text-center font-weight-light ">"This is fantastic! Thanks so much guys!"</p>
+            </div>
+
+            <div class="col-12 col-md-3 d-flex flex-column align-items-center p-5">
+                <img class="rounded-circle" src="./images/tes2.jpg" alt="testimonial-1" width="200">
+                <h4 class="py-2 font-weight-bold">Fred S.</h4>
+                <p class="text-center font-weight-light ">"Bootstrap is amazing. I've been using it to create lots
+                    of super nice landing pages."</p>
+            </div>
+
+            <div class="col-12 col-md-3 d-flex flex-column align-items-center p-5">
+                <img class="rounded-circle" src="./images/tes3.jpg" alt="testimonial-1" width="200">
+                <h4 class="py-2 font-weight-bold">Sarah W.</h4>
+                <p class="text-center font-weight-light ">"Thanks so much for making these free resources
+                    available to us!"</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- the lower banner            #####-->
+
+    <div class="row">
+        <div class="col-12 p-0 position-relative">
+            <img class="w-100" src="./images/banner.jpg" alt="banner" height="300px">
+            <div class="d-flex flex-column justify-content-center align-items-center position-absolute w-100 h-100"
+                style="top:0;left:0;">
+                <h3 class="font-weight-bold text-white text-center">Ready to get started? Sign up now!</h3>
+                <form class="form m2-5">
+                    <input type="email" class="form-control my-2" placeholder="Enter your email..."
+                        style="width:300px;height:45px;">
+                    <button type="submit" class="w-100 btn btn-primary" style="height:45px;">Sign up!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- #################   last part ######## -->
+
+
+    <div class="row row-cols-1 row-cols-md-2 my-5">
+        <div class="col-12 col-md-6 pl-5 ">
+            <ul>
+                <li class="d-inline-block px-2"><a href="#">About</a></li>
+                <li class="d-inline-block px-2"><a href="#">Contact</a></li>
+                <li class="d-inline-block px-2"><a href="#">Terms of Use</a></li>
+                <li class="d-inline-block px-2"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <small class="pl-5">&copy; Your Website 2020. All Rights Reserved.</small>
+        </div>
+        <div class="col-12 col-md-5 text-center text-md-right pt-5 pt-md-0 pr-5">
+            <i class="fab fa-facebook fa-2x text-primary mx-3"></i>
+            <i class="fab fa-twitter-square fa-2x text-primary mx-3"></i>
+            <i class="fab fa-instagram fa-2x text-primary ml-3 "></i>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
