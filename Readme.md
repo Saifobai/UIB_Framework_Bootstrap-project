@@ -1,4 +1,4 @@
-# UIB_Framework_Bootstrap_Exercise-2
+# UIB_Framework_Bootstrap_
 
 Single webpage with Bootstrap.
 
@@ -18,6 +18,3 @@ Single webpage with Bootstrap.
 
 ![The overview](./images/mobile.png "The mobile overview")
 
-## The online version
-
-In order to see live version, just [click...!](https://hsnakk.github.io/UIB_Framework_Bootstrap_Exercise-2/)
